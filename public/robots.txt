@@ -1,15 +1,4 @@
 User-agent: *
-
-# Allow all pages
 Allow: /
 
-# Block system folders (optional)
-Disallow: /api/
-Disallow: /_next/
-Disallow: /404
-
-# Sitemap
 Sitemap: https://onewebs.vercel.app/sitemap.xml
-
-# Crawl delay (optional)
-Crawl-delay: 1
