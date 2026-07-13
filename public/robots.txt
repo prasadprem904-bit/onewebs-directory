@@ -1,0 +1,16 @@
+User-agent: *
+
+# Allow all important pages
+Allow: /
+
+# Block unnecessary system files (if they exist)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://onewebs.vercel.app/sitemap.xml
+
+# Host
+Host: https://onewebs.vercel.app
